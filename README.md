@@ -1,146 +1,335 @@
-# ✦ EXODUS — Humanity's Last Ship
+# ✦ EXODUS // HUMANITY'S LAST SHIP
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06090e,50:142b40,100:a7d8ed&height=220&section=header&text=EXODUS&fontSize=76&fontColor=e6eaf0&fontAlignY=38&desc=HUMANITY'S%20LAST%20SHIP&descAlignY=60&descSize=18" width="100%" alt="EXODUS — Humanity's Last Ship banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:02040a,30:071525,65:16384d,100:7ab6ce&text=EXODUS&fontColor=e6f4ff&fontSize=100&fontAlignY=40&desc=THE%20LAST%20VOYAGE%20OF%20HUMANITY&descSize=15&descAlignY=61&animation=fadeIn&stroke=8abed3&strokeWidth=0" width="100%" alt="EXODUS cinematic space banner"/>
 </p>
 
 <p align="center">
-  <strong>A cinematic journey beyond Earth.</strong><br/>
-  An immersive science-fiction experience exploring humanity's final generation ship and its search for a new home among the stars.
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=800&color=A7D8ED&center=true&vCenter=true&width=700&lines=INCOMING+TRANSMISSION...;MISSION+EXODUS-01+%7C+UPLINK+ESTABLISHED;12%2C480+HUMAN+LIVES+ONBOARD;DESTINATION%3A+NOVA-7;THE+HUMAN+STORY+CONTINUES." alt="Animated mission transmission"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-Design-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/JavaScript-Interactions-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/WebGL-3D%20Graphics-990000?style=for-the-badge" alt="WebGL"/>
-  <img src="https://img.shields.io/badge/Responsive-Design-7C3AED?style=for-the-badge" alt="Responsive design"/>
+  <strong>EARTH WAS THE ORIGIN. THE STARS ARE THE FUTURE.</strong>
+</p>
+
+<p align="center">
+  <a href="#-mission-briefing">MISSION BRIEFING</a> ·
+  <a href="#-the-vessel">THE VESSEL</a> ·
+  <a href="#-destination-nova-7">NOVA-7</a> ·
+  <a href="#-engineering-the-experience">ENGINEERING</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PROJECT-EXODUS--01-a7d8ed?style=for-the-badge&labelColor=06090e" alt="Project EXODUS-01"/>
+  <img src="https://img.shields.io/badge/GENRE-SCI--FI-6c879d?style=for-the-badge&labelColor=06090e" alt="Science fiction"/>
+  <img src="https://img.shields.io/badge/GRAPHICS-CUSTOM%20WEBGL-9dc7d8?style=for-the-badge&labelColor=06090e" alt="Custom WebGL graphics"/>
+  <img src="https://img.shields.io/badge/ARCHITECTURE-SINGLE%20FILE-c5b99e?style=for-the-badge&labelColor=06090e" alt="Single-file architecture"/>
 </p>
 
 ---
 
-## 🌌 The Experience
+> **TRANSMISSION LOG // 2189**
+>
+> Earth has been left behind.
+>
+> A generation ship carries the remnants of humanity through the silence between stars. Entire lives will begin and end before the destination is reached.
+>
+> Somewhere beyond the darkness lies NOVA-7.
+>
+> **This is not a story about leaving Earth. This is a story about giving humanity another beginning.**
 
-Earth was only the beginning.
+---
 
-**EXODUS** is a futuristic, single-page interactive website built around an imagined interstellar migration program. It presents a generation ship carrying humanity toward NOVA-7, a potential new home light-years away.
+## ◈ 00 / MISSION BRIEFING
 
-Designed with a cinematic, dark interface, subtle blue highlights, spacecraft telemetry, and interactive 3D graphics, the experience combines storytelling with hands-on exploration.
+**EXODUS — Humanity's Last Ship** is a cinematic, interactive science-fiction web experience built with HTML, CSS, JavaScript, and custom WebGL graphics.
 
-## 🚀 Features
+The experience places you aboard **EXODUS-01**, a fictional 4.8-kilometre generation vessel transporting 12,480 people toward a potential new home.
 
-- **Interactive 3D Generation Ship** — Explore the EXODUS-01 vessel with mouse dragging and keyboard arrow controls.
-- **Animated Cosmic Environment** — A star-filled backdrop and planetary visuals create a deep-space atmosphere.
-- **Mission Telemetry HUD** — Displays mission status, crew population, and journey progress.
-- **Explore the Vessel** — Interactive system panels reveal information about habitation, biosphere, propulsion, and medical infrastructure.
-- **NOVA-7 Destination Profile** — Discover the fictional planet's environmental specifications and projected arrival.
-- **Human Archive** — Three narrative snapshots explore life, memory, and community aboard the ship.
-- **Cinematic Interface** — Minimal typography, fine borders, atmospheric gradients, and restrained animations.
-- **Responsive Layout** — Adapts the experience to desktop and smaller screens.
-- **Accessibility Considerations** — Keyboard interaction, visible focus indicators, descriptive labels, and reduced-motion support.
-- **WebGL Fallback** — A simplified spacecraft illustration is available when WebGL initialization fails.
+Explore the ship. Inspect its systems. Study its destination. Discover the lives unfolding inside a world suspended between the stars.
 
-## 🪐 Explore the Mission
+This project combines immersive visual design, procedural 3D rendering, futuristic mission telemetry, responsive layouts, and narrative world-building into a self-contained web experience.
 
-| Section | What you'll discover |
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:07111d,100:142d40&height=2&section=header" width="100%" alt="Section divider"/>
+</p>
+
+## ⌬ 01 / MISSION CONTROL
+
+<table>
+  <tr>
+    <td width="50%">
+      <strong>VESSEL DESIGNATION</strong><br/>
+      <code>EXODUS-01</code>
+    </td>
+    <td width="50%">
+      <strong>MISSION STATUS</strong><br/>
+      <code>EN ROUTE</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>DEPARTURE YEAR</strong><br/>
+      <code>2189</code>
+    </td>
+    <td>
+      <strong>ESTIMATED ARRIVAL</strong><br/>
+      <code>2389</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>MISSION DURATION</strong><br/>
+      <code>200 YEARS</code>
+    </td>
+    <td>
+      <strong>CREW & PASSENGERS</strong><br/>
+      <code>12,480</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>VESSEL LENGTH</strong><br/>
+      <code>4.8 KM</code>
+    </td>
+    <td>
+      <strong>DESTINATION</strong><br/>
+      <code>NOVA-7</code>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MISSION_PROGRESS-87%25-a7d8ed?style=for-the-badge&labelColor=06090e" alt="Fictional mission progress: 87 percent"/>
+</p>
+
+<sub>Mission parameters are fictional, illustrative values from the website. They do not represent a real spacecraft, operational telemetry, or scientifically verified destination.</sub>
+
+## ✧ 02 / THE EXPERIENCE
+
+### I. THE GENERATION VESSEL
+
+A custom-rendered spacecraft floating against an atmospheric starfield.
+
+- Custom WebGL rendering and GLSL shaders.
+- Procedurally constructed spacecraft geometry.
+- Rotatable vessel using pointer interaction.
+- Keyboard-based left and right rotation controls.
+- A fallback spacecraft illustration if WebGL initialization fails.
+
+### II. MISSION TELEMETRY
+
+Enter the mission-control interface.
+
+- Crew counter animation.
+- Mission status and journey progress.
+- Futuristic heads-up display.
+- Restrained blue illumination and glass-like panels.
+- Navigation indicators that respond to page position.
+
+### III. THE ARCHITECTURE OF SURVIVAL
+
+The vessel is more than a spacecraft. It is an entire civilization.
+
+| System | Mission purpose |
 |---|---|
-| The Mission | Humanity's departure from Earth and the purpose of EXODUS |
-| The Vessel | The ship's fictional life-support and engineering systems |
-| The Destination | NOVA-7, the planet awaiting the next generation |
-| The Human Archive | Stories about preserving humanity beyond Earth |
-| Final Transmission | The closing message of the EXODUS journey |
+| `01 / HABITATION` | Rotating gravity ring and residential decks |
+| `02 / BIOSPHERE` | Hydroponic agriculture and water recovery |
+| `03 / PROPULSION` | Fictional fusion propulsion architecture |
+| `04 / MEDICAL` | Medical care and generational continuity |
 
-## 🛠️ Built With
+Select a system on the website to reveal its corresponding description.
 
-- **HTML5** — Semantic page structure and content.
-- **CSS3** — Responsive layouts, typography, gradients, HUD elements, and visual effects.
-- **Vanilla JavaScript** — Interactive controls, navigation updates, telemetry animation, and event handling.
-- **WebGL** — Custom shader-based spacecraft and planetary rendering.
-- **Canvas API** — Procedurally generated starfield.
-- **Intersection Observer API** — Section visibility and navigation-state updates.
+### IV. NOVA-7
 
-The project uses a lightweight, single-file architecture without a framework or external JavaScript rendering library.
+A distant, blue-green world representing humanity's next beginning.
 
-## 💻 Run Locally
+The destination section features a stylized planetary illustration, orbital rings, and fictional environmental specifications.
 
-No package installation or build process is required.
+### V. THE HUMAN ARCHIVE
 
-1. Clone the repository:
+Three short narrative fragments explore the emotional side of interstellar migration:
 
-   ```bash
-   git clone YOUR_GITHUB_REPOSITORY_URL
-   ```
+- **A sky of our own.** — Childhood and memory aboard a generation ship.
+- **Something still grows.** — The preservation of nature and life.
+- **The space between us.** — Community, belonging, and generations born among the stars.
 
-2. Navigate to the project folder:
+Because the future is not just about surviving long enough to arrive.
 
-   ```bash
-   cd YOUR_REPOSITORY_NAME
-   ```
+**It is about remaining human when we get there.**
 
-3. Open `EXODUS-Humanity-s-Last-Ship.html` in your browser.
+---
 
-   Alternatively, open the folder in VS Code and use the **Live Server** extension.
+## ⟁ 03 / ENGINEERING THE EXPERIENCE
 
-## 🎮 Interaction Guide
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square" alt="WebGL"/>
+  <img src="https://img.shields.io/badge/GLSL-7B68EE?style=flat-square" alt="GLSL shaders"/>
+  <img src="https://img.shields.io/badge/Canvas_API-20232A?style=flat-square" alt="Canvas API"/>
+</p>
 
-- **Drag the spacecraft:** Rotate the ship's orientation.
-- **Use the left and right arrow keys:** Adjust the spacecraft's rotation when the interactive canvas is focused.
-- **Select a vessel system:** View its corresponding technical description.
-- **Use the navigation menu:** Move between the mission, vessel, destination, and archive.
-- **Select reset:** Return the spacecraft's rotation to its initial position.
+| Technology | Role in the project |
+|---|---|
+| HTML5 | Semantic structure and content |
+| CSS3 | Layout, responsive styling, gradients, HUD, and visual effects |
+| Vanilla JavaScript | Interactions, state updates, navigation, and animations |
+| WebGL | Custom 3D geometry rendering |
+| GLSL | Vertex and fragment shader logic |
+| Canvas API | Procedurally generated starfield |
+| Intersection Observer | Viewport-aware navigation and section effects |
+| Browser animation APIs | Telemetry and scroll-triggered transitions |
 
-## 🎨 Design Philosophy
+### UNDER THE HOOD
 
-EXODUS explores the intersection of **cinematic storytelling, interactive graphics, and futuristic interface design**.
+The project uses a **single-file architecture**: the HTML, CSS, and JavaScript are contained in one document.
 
-The visual language emphasizes:
+The 3D spacecraft is constructed from custom geometry and rendered through WebGL rather than relying on a 3D framework. A Canvas-based starfield complements the vessel, while responsive CSS and browser APIs handle the interface.
 
-- Deep-space black and blue-grey tones.
-- Ice-blue highlights and subtle gold accents.
+No framework or package installation is required to run the current version.
+
+---
+
+## ⌘ 04 / FLIGHT CONTROLS
+
+| Input | Action |
+|---|---|
+| Mouse drag | Rotate the spacecraft |
+| Left arrow | Rotate left when the 3D canvas is focused |
+| Right arrow | Rotate right when the 3D canvas is focused |
+| System selection | Inspect vessel infrastructure |
+| Navigation links | Jump between mission sections |
+| Reset control | Restore the ship's initial rotation |
+
+**Operator note:** On smaller screens, use the responsive layout and available pointer interactions. Reduced-motion preferences are also considered by the interface.
+
+---
+
+## ◇ 05 / VISUAL IDENTITY
+
+EXODUS is designed around one principle:
+
+**The interface should feel like a window into another civilization.**
+
+The design language combines:
+
+- Near-black backgrounds and deep-space gradients.
+- Ice-blue highlights and muted gold accents.
 - Oversized editorial typography.
-- Minimal mission-control interface elements.
-- Atmospheric planetary imagery.
-- Interactive details that reward exploration without overwhelming the experience.
+- Monospaced mission-control labels.
+- Fine borders, restrained glow, and atmospheric depth.
+- Minimal navigation that keeps the experience focused.
+- Narrative content integrated into the visual environment.
 
-## 🧠 What This Project Demonstrates
+The result is an experience positioned between a cinematic sci-fi title sequence and a futuristic spacecraft interface.
 
-- Building a complete interactive experience with vanilla JavaScript.
-- Rendering custom 3D geometry using WebGL and GLSL shaders.
-- Creating responsive interfaces without a CSS framework.
-- Implementing pointer and keyboard-based interactions.
-- Using browser APIs for animation and viewport awareness.
-- Combining fictional world-building with front-end engineering.
+---
 
-## 🔭 Future Improvements
+## ⏳ 06 / THE MISSION TIMELINE
 
-- Add cinematic camera transitions and richer spacecraft models.
-- Introduce additional interactive ship modules and crew records.
-- Add ambient audio with user-controlled playback.
-- Improve touch-based 3D controls for mobile devices.
-- Expand the mission timeline and destination exploration.
-- Add performance profiling and broader browser compatibility testing.
+<pre>
+  2189  ─────── DEPARTURE FROM EARTH
+     │
+     │         GENERATIONS PASS
+     │         CIVILIZATION CONTINUES
+     │         THE VESSEL MOVES ONWARD
+     │
+  2363  ─────── CURRENT SHIP YEAR
+     │
+     │         FINAL APPROACH
+     │
+  2389  ─────── PROJECTED ARRIVAL AT NOVA-7
+</pre>
 
-## 📂 Project Structure
+<sub>This timeline belongs to the fictional EXODUS universe and is presented for storytelling purposes.</sub>
 
-```text
-EXODUS/
-└── EXODUS-Humanity-s-Last-Ship.html
+---
+
+## 🚀 07 / LAUNCH THE EXPERIENCE
+
+You do not need a complex development environment to explore the current version.
+
+### Option A — Run locally
+
+**1. Clone your repository**
+
+Replace the example URL with your actual GitHub repository URL.
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-The HTML file contains the page structure, styles, and JavaScript implementation.
+**2. Enter the project folder**
 
-## 🌠 The Mission
+```bash
+cd exodus-humanitys-last-ship
+```
 
-*We are not escaping the stars. We are returning to them.*
+**3. Open the HTML file**
 
-**EXODUS — 2189–2389. The human story continues.**
+Open `EXODUS-Humanity-s-Last-Ship.html` in your browser, or use VS Code with the Live Server extension.
+
+### Option B — Deploy it
+
+The website can be deployed as a static site using GitHub Pages, Netlify, or another static hosting provider.
+
+For GitHub Pages, upload the HTML file to the repository and configure the repository's Pages settings. If you want the site to load automatically at the repository root, rename the file to `index.html`.
+
+### Project structure
+
+```text
+EXODUS-HUMANITY-S-LAST-SHIP/
+│
+├── index.html
+└── README.md
+```
+
+The tree above represents the recommended repository layout after renaming the HTML file to `index.html`.
 
 ---
 
+## 🛰️ 08 / DEVELOPMENT ROADMAP
+
+The next evolution of EXODUS could include:
+
+- [ ] Cinematic camera transitions and additional ship views.
+- [ ] More detailed planetary and spacecraft geometry.
+- [ ] Additional explorable vessel modules.
+- [ ] Crew biographies and an expanded human archive.
+- [ ] A richer mission timeline and interactive star map.
+- [ ] Optional ambient audio with explicit playback controls.
+- [ ] Further touch controls and mobile interaction testing.
+- [ ] Performance profiling across browsers and devices.
+- [ ] Additional accessibility and WebGL fallback testing.
+
+These are potential future improvements, not features claimed to be implemented in the current version.
+
+---
+
+## ✦ 09 / THE FINAL TRANSMISSION
+
 <p align="center">
-  Designed and developed as an independent creative web project.
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:142d40,50:a7d8ed,100:142d40" width="100%" alt="Transmission divider"/>
 </p>
 
 <p align="center">
-  <sub>EXODUS is a fictional science-fiction concept. Mission data, the vessel, and NOVA-7 are imaginary.</sub>
+  <strong>
+    WE ARE NOT ESCAPING THE STARS.<br/>
+    WE ARE RETURNING TO THEM.
+  </strong>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7ab6ce,50:16384d,100:02040a&height=130&section=footer" width="100%" alt="EXODUS closing banner"/>
+</p>
+
+<p align="center">
+  <strong>EXODUS-01</strong><br/>
+  <code>2189 — 2389 // THE HUMAN STORY CONTINUES</code>
+</p>
+
+<p align="center">
+  <sub>A fictional science-fiction web experience, independently developed with front-end technologies and custom WebGL graphics.</sub>
 </p>
